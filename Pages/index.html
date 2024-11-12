@@ -9,88 +9,100 @@
 <body> 
 <header> 
     <div align="center">
-    <img src="https://graffica.info/wp-content/uploads/2017/08/NBA-logo-png-download-free.png" width="300" alt="TODO NBA">
+      <img src="./../Assets/Imagenes/todo.nba.png" width="300" alt="TODO NBA">
 </div> 
+<!-- Menú llevara: otras páginas -> Posiciones (Tabla html), Estadisticas, Contacto "Suscribite a nuestra newsletter"
+     Página Principal: Partidos hoy, jugadas del momento (Con videos de las mismas) Equipos (noticias de los equipos mas relevantes)-->
 <h1 align="center">TODO NBA</h1>
-<nav>
+<div>
+<nav class="Navegador entre páginas">
     <ol> 
-        
-        <li><a href="#partidoshoy">Partidos Hoy</a></li> 
-        <li><a href="#equipos">Equipos Destacados</a></li>
-        <li><a href="#estadisticas">Estadisticas</a></li>
-        <li><a href="#posiciones">Posiciones</a></li>
+        <li><a href="index.html">Página Principal</a></li>
+        <li><a href="./Posiciones.html">Posiciones</a></li> 
+        <li><a href="./Contacto.html">Suscribite a nuestra Newsletter</a></li>
     </ol>
 </nav>
+</div>
 </header>
+<hr>
+<div class="Navegador página principal" align="center">
+<nav class="Navegador página principal"> 
+    <a href="#partidoshoy" >PARTIDOS HOY - </a>
+    <a href="#equipos"> EQUIPOS - </a>
+    <a href="#jugadas"> SHOWTIME  </a>
+</nav>
+</div>
 <hr> 
 <main> 
     <section id="partidoshoy"> 
         <h2> PARTIDOS HOY </h2>
         <ul>
-            <li>Hornets vs Pistons 21hs</li>
-            <li>Pacers vs Magic 21hs</li>
-            <li>Warriors vs Celtics 21:30hs</li>
-            <li>Hawks vs Knicks 21:30hs</li>
+            <li>Pelicans vs Nets 22hs</li>
+            <li>Rockets vs Wizards 22hs</li>
+            <li>Spurs vs Kings 22hs</li>
+            <li>Bulls vs Cavaliers 22hs</li>
         </ul>
     </section>
 
 <hr>
 
-<section id="equipos">
+<section id="equipos"> <!-- Poner cuando juega un equipo, alguna noticia del momento y la ubicacion del estadio del local-->
  <h2> EQUIPOS DESTACADOS </h2>
        <article> 
-        <h3> LOS ANGELES LAKERS </h3>
-        <p> El equipo más ganador de la historia </p>
-         </article>
-         <article> 
-            <h3> GOLDEN STATE WARRIORS </h3>
-            <p> El equipo más dominante de la ultima década </p>
-             </article>
-             <article> 
-                <h3> BOSTON CELTICS </h3>
-                <p> Último campeón de la NBA </p>
-                 </article>
-                 <article> 
-                    <h3> OKLAHOMA CITY THUNDER </h3>
-                    <p> El gran favorito de esta temporada </p>
-                     </article>
-</section>
-<hr>
-<section id="estadisticas">
-    <h2> ESTADISTICAS </h2>
-    <article>
-        <p> Maximo Anotador: Anthony Davis <br>
-            Maximo Asistidor: Trae Young <br>
-            Maximo Reboteador: Domantas Sabonis
+        <h3> Cleveland Cavaliers busca seguir su buena racha en Chicago </h3>
+        <p> Los Cleveland Cavaliers ganaron once partidos consecutivos en el arranque de la temporada. 
+            Se trata del mejor comienzo de la historia para la franquicia y son el mejor equipo de la NBA, hoy se miden en el United Center contra Chicago Bulls.
         </p>
-    </article>
+        <h4> El partido se disputa en el United Center </h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11882.262582515012!2d-87.6741759!3d41.8806908!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2d3ecaa9b54f%3A0x9b93f0068cf00344!2sUnited%20Center!5e0!3m2!1ses-419!2sar!4v1731366364325!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </article>
+         <article>
+            <h3> Spurs quiere recuperar terreno de Local </h3>
+            <p> Partido de complicado pronóstico el que disputarán San Antonio Spurs y Sacramento Kings. Los de Texas están alternando buenas actuaciones con otras más que discretas, lo cual no evita que estén en positivo en su cancha (3-2).
+                 Los californianos por su parte tienen objetivos más ambiciosos, sobre todo tras el fichaje de DeMar DeRozan, pero no terminan de ser fiables pese a su récord de 6-4. Gran parte del resultado dependerá del previsible duelo entre Victor Wembanyama y Domantas Sabonis.
+                </p>
+                <h4> El partido sera en la casa de Victor Wembanyama </h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13900.243098124733!2d-98.4374652!3d29.4270201!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865cf681b490e335%3A0xaad3c1cc2b98e0a4!2sAT%26T%20Center!5e0!3m2!1ses-419!2sar!4v1731367013010!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 <hr>
-<section id="posiciones">
-    <h2> POSICIONES </h2>
+<section id="jugadas"> <!-- Insertar videos de jugadas, curiosidades, etc-->
+    <h2> SHOWTIME! MEJORES MOMENTOS DE LA ACTUAL TEMPORADA </h2>
     <article>
-        <p> CONFERENCIA ESTE:</p>
-        <ol>
-            <li>Cleveland Cavaliers</li>
-            <li>Boston Celtics</li>
-            <li>Brooklyn Nets</li>
-        </ol>
-        <p> CONFERENCIA OESTE:</p>
-        <ol>
-        <li>Oklahoma City Thunder</li>
-        <li>Phoenix Suns</li>
-        <li>Golden State Warriors</li>
-        </ol>
+        <h3> FINAL NO APTO PARA CARDIACOS</h3>
+        <p> Denver Nuggets ganó por la minima ante Dallas Maverics (122-120) en un partido que no se definió hasta los ultimos minutos. 
+            Nikola Jokic terminó siendo la figura de la cancha cerrando la planilla con 18 rebotes, 15 asistencias, 37 puntos.
+        </p>
+        <h4> Revivi el final del partido acá </h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tvaUvjcEf9E?si=pxqhrC7gZqNF7DWb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </article>
+    <article>
+        <h3> TRIPLE FALTANDO 10 SEGUNDOS Y EMPATA EL PARTIDO! </h3>
+        <p> Increible triple de Lamelo Ball que faltando 10 segundos toma el balon y hace un fadeaway resultando en el empate ante Philadelphia.
+            A pesar del esfuerzo el equipo de Charlotte no logró la victoria y el oriundo de California cerro la planilla con 38 puntos.
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_3FPPA8l0aI?si=EsGs2cF4griUqoKR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </article>
+    <article>
+        <h3> STEPHEN CURRY NO PARA DE COCINAR </h3>
+        <p> "El Chef" sigue pasando por un gran momento deportivo y los Warriors amplian su buena racha. 
+            36 puntos de Curry lideraron la victoria de Golden State ante los complicados Oklahoma City Thunder.
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NUe_Bw3wmo8?si=YT5RK6BImxyPfWNp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </article>
 </section>
 </main>
 <hr>
+
+
 <footer> 
     <ul>
         <li><a href="https://www.instagram.com/" target="_blank"> Nuestro Instagram</a></li>
         <li><a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank"> Nuestro Facebook</a></li>
         <li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank"> Nuestro Tinder</a></li>
     </ul>
+    <a href="./index.html">
+        <button> Volver al inicio </button>
+    </a>
 </footer>
 </body>
 
